@@ -1,0 +1,16 @@
+{
+    "name": "davidchc/sortdata",
+    "description": "Ordernar array multidimensional por busca de palavras predefinidas",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David CHC",
+            "email": "david.chc@gmail.com"
+        }
+    ],
+    "autoload": {
+		"psr4" : {
+			"SortData\\" : "src/SortData"
+		}
+	}
+}
