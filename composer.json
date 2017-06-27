@@ -2,6 +2,7 @@
     "name": "davidchc/sortdata",
     "description": "Ordernar array multidimensional por busca de palavras predefinidas",
     "type": "library",
+	"minimum-stability" : "stable",
     "authors": [
         {
             "name": "David CHC",
