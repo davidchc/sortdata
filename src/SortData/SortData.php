@@ -25,7 +25,7 @@ class SortData
 		return $this;
 	}
 
-	public function search()
+	public function sort()
 	{
 		foreach($this->source as $key => $value) {
 			foreach($this->sorts as $i => $search) {
@@ -59,7 +59,7 @@ class SortData
 
 	public function getResults()
 	{
-
+		
 		return array_merge($this->getDataSort(), $this->source);
 	}
 

@@ -25,7 +25,7 @@ $datasource[] = array('name' => 'Curso de Photoshop Ultimate');
 $sortData = new SortData\SortData($keywords, $datasource, 'name');
 
 
-$sort = $sortData->search()->getResults();
+$sort = $sortData->sort()->getResults();
 
 print_r($sort);
 
@@ -36,7 +36,7 @@ Você pode também deixar itens encontrados de forma randômica
 ```php
 <?php 
 
-$sort = $sortData->search()->rand()->getResults();
+$sort = $sortData->sort()->rand()->getResults();
 print_r($sort);
 
 ```
