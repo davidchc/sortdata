@@ -3,6 +3,8 @@
     "description": "Ordernar array multidimensional por busca de palavras predefinidas",
     "type": "library",
 	"minimum-stability" : "stable",
+	"licence": "MIT",
+	 "keywords": ["array multidimensional", "sort array"],
     "authors": [
         {
             "name": "David CHC",
